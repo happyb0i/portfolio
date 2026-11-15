@@ -14,7 +14,7 @@ export function Contact() {
           GitHub <span aria-hidden="true">↗</span>
         </a>
         <a
-          href="https://www.linkedin.com/in/eric-kong-b3637220a/"
+          href="www.linkedin.com/in/erickongws"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn profile (opens in a new tab)"
