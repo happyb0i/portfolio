@@ -1,2 +1,2 @@
 /// <reference types="vite/client" />
-declare const __BUILD_INFO__: import("./lib/build-info").BuildInfo;
+declare const __DEPLOYMENT_RUN_URL__: string | null;

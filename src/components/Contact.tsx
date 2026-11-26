@@ -22,6 +22,16 @@ export function Contact() {
           LinkedIn <span aria-hidden="true">↗</span>
         </a>
       </nav>
+      {__DEPLOYMENT_RUN_URL__ && (
+        <a
+          className="pw-deployment-link"
+          href={__DEPLOYMENT_RUN_URL__}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View this deployment on GitHub Actions <span aria-hidden="true">↗</span>
+        </a>
+      )}
     </footer>
   );
 }

@@ -1,6 +1,5 @@
 import { Hero } from "./components/Hero";
 import { Projects } from "./components/Projects";
-import { DeploymentExplorer } from "./components/DeploymentExplorer";
 import { Experience } from "./components/Experience";
 import { Contact } from "./components/Contact";
 
@@ -24,7 +23,6 @@ export function App() {
         <main id="main-content">
           <Hero />
           <Projects />
-          <DeploymentExplorer />
           <Experience />
         </main>
         <Contact />

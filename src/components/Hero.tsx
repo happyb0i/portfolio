@@ -1,4 +1,4 @@
-import { Layers, Terminal } from "lucide-react";
+import { Layers, Server, Terminal } from "lucide-react";
 
 export function Hero() {
   return (
@@ -30,34 +30,23 @@ export function Hero() {
             Currently Infrastructure Engineer at <strong>Homeswift.ai</strong>
           </div>
         </div>
-        <div
-          className="hy-hero-drawing"
-          aria-label="Conceptual stack for isolated AI coding-agent workloads on EKS"
-        >
-          <span className="hy-drawing-label">A LOOK UNDER THE HOOD</span>
-          <div className="hy-workload">
-            <Terminal aria-hidden="true" />
-            <div>
-              AI coding-agent workloads
-              <small>Isolated execution environments</small>
-            </div>
-          </div>
-          <div className="hy-connection"></div>
-          <div className="hy-eks">
-            <span>KUBERNETES / AMAZON EKS</span>
-            <div className="hy-kata">
+        <figure className="hy-hero-drawing">
+          <figcaption>How I isolated coding agents on EKS</figcaption>
+          <ol className="hy-isolation-stack">
+            <li>
+              <Terminal aria-hidden="true" />
+              <span>AI coding-agent workloads</span>
+            </li>
+            <li>
               <Layers aria-hidden="true" />
-              <div>
-                Kata Containers<small>Firecracker microVMs</small>
-              </div>
-            </div>
-            <div className="hy-microvms">
-              <span>Isolated workload</span>
-              <span>Isolated workload</span>
-            </div>
-          </div>
-          <p>Conceptual view · Homeswift.ai infrastructure work</p>
-        </div>
+              <span>Kata Containers with Firecracker microVMs</span>
+            </li>
+            <li>
+              <Server aria-hidden="true" />
+              <span>EKS nodes configured for nested virtualization</span>
+            </li>
+          </ol>
+        </figure>
       </section>
       <div className="hy-toolstrip">
         <span>TOOLS I WORK WITH</span>
