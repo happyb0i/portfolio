@@ -1,4 +1,4 @@
-# Hey, I'm Eric Kong 👋
+# Hi, I'm Eric
 
 I build cloud infrastructure, automate deployments, and create environments for AI agents to run. This is my little corner of the internet.
 
