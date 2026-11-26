@@ -43,10 +43,6 @@ export function Experience() {
                   <span className="pw-role">Infrastructure Engineer</span>
                   <ul className="pw-accomplishments">
                     <li>
-                      Built a self-service app that let users launch their own AI agents on
-                      Kubernetes, with persistent storage to retain each agent’s state.
-                    </li>
-                    <li>
                       Isolated live coding agents on EKS by configuring nodes for nested
                       virtualization and deploying Kata Containers with Firecracker
                       microVMs.
